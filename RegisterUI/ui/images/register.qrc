@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="background">
+    <file>background_register.png</file>
+  </qresource>
+  <qresource prefix="icono">
+    <file>sitio-web.png</file>
+  </qresource>
+</RCC>
