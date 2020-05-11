@@ -6,6 +6,8 @@
 ## Created by: Qt User Interface Compiler version 5.14.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
+##
+## Design: FACUNDO KIMBO - https://www.fb.com/facundo.kimbo.1
 ################################################################################
 
 from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QMetaObject,
