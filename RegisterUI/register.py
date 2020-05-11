@@ -1,3 +1,5 @@
+# COPYRIGHT 2020 - FACUNDO KIMBO - https://www.fb.com/facundo.kimbo.1
+
 import sys
 from PySide2.QtWidgets import *
 from ui.ui_register import Ui_Register
