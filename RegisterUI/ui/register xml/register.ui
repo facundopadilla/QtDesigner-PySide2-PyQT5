@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">*{
 font-family:century gothic;
-background: url(C:/Users/Pc/Pictures/background_register.png);
+background: url(:/background/background_register.png);
 }
 
 QToolButton{
@@ -227,8 +227,8 @@ font-weight: bold;
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/Pc/Downloads/sitio-web.png</normaloff>C:/Users/Pc/Downloads/sitio-web.png</iconset>
+     <iconset resource="../images/register.qrc">
+      <normaloff>:/icono/sitio-web.png</normaloff>:/icono/sitio-web.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -239,6 +239,9 @@ font-weight: bold;
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../test.qrc"/>
+  <include location="../images/register.qrc"/>
+ </resources>
  <connections/>
 </ui>
