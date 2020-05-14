@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QMainWindow" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ControlStock - Iniciar sesión</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: century gothic;
+}
+
+QWidget#loginwidget{
+background:url(:/background/background.png)
+}
+
+QFrame#framelogin{
+background:#1d1d1d;
+border-radius:15px;
+}
+
+QLabel#controlstocklabel{
+font-size:24px;
+}
+
+QToolButton#toolBtn{
+background:#2d89ef;
+border-radius:15px;
+}
+
+QLabel{
+color:white;
+font-weight:bold;
+}
+
+QLineEdit{
+background:transparent;
+border:none;
+border-bottom:1px solid white;
+color:white;
+}
+
+QPushButton{
+background:#2d89ef;
+border-radius:15px;
+color:white;
+font-weight:bold;
+}
+
+QPushButton:hover{
+background:#2b5797;
+border-radius:15px;
+color:white;
+font-weight:bold;
+}
+
+QPushButton#btnOlvidar{
+background:transparent;
+}
+
+QPushButton:hover#btnOlvidar{
+border-bottom:1px solid white;
+border-radius:0px;
+}
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="loginwidget">
+   <widget class="QFrame" name="framelogin">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>9</y>
+      <width>371</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="controlstocklabel">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>0</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ControlStock</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolBtn">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>50</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images/source.qrc">
+       <normaloff>:/icon/icon.png</normaloff>:/icon/icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="iniciarlabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>131</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>INICIAR SESIÓN</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entryUser">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>210</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maxLength">
+      <number>23</number>
+     </property>
+     <property name="placeholderText">
+      <string>Ingresar usuario</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entryPass">
+     <property name="geometry">
+      <rect>
+       <x>32</x>
+       <y>290</y>
+       <width>321</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>12</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>•••••••••••</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelUser">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>68</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Usuario</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelPass">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>101</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Contraseña</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="brnIniciar">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>500</y>
+       <width>321</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>INICIAR SESIÓN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCrear">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>550</y>
+       <width>321</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CREAR CUENTA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="usericon">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>210</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="images/source.qrc">:/icon/user.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="passicon">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>280</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="images/source.qrc">:/icon/pass.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOlvidar">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>330</y>
+       <width>171</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Olvidé mi contraseña</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
