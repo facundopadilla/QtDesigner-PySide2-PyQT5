@@ -8,5 +8,5 @@ Diseños con QtDesigner, son totalmente funcionales tanto para PyQT5 y PySide2 :
 
 <p align="center">
   <h1>Calculadora</h1>
-  <img src="https://i.ibb.co/JFLB2zX/calculadora.png" width=400>
+  <img src="https://i.ibb.co/JFLB2zX/calculadora.png" width=200>
 </p>
