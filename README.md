@@ -12,6 +12,6 @@ Diseños con QtDesigner, son totalmente funcionales tanto para PyQT5 y PySide2 :
   <p align="center">
     <h2 style="text-align: center">Calculadora</h2>
     <br />
-    <p style="text-align: center"><img src="https://i.ibb.co/JFLB2zX/calculadora.png">
+    <p style="text-align: center"><img src="https://i.ibb.co/JFLB2zX/calculadora.png" width=400>
   </p>
 <html>
