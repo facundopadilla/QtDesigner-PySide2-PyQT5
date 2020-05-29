@@ -13,5 +13,5 @@ Diseños con QtDesigner, son totalmente funcionales tanto para PyQT5 y PySide2 :
     <p style="text-align: center"><img src="https://i.ibb.co/JFLB2zX/calculadora.png" width=400>
   </p>
 
-<p>Juego del TaTeTi</p>
+<p><h2>Juego del TaTeTi</h2></p>
 <img width=200 src="https://i.ibb.co/KmVVXDW/tateti.png">
