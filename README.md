@@ -14,4 +14,4 @@ Diseños con QtDesigner, son totalmente funcionales tanto para PyQT5 y PySide2 :
   </p>
 
 <p>Juego del TaTeTi</p>
-<img width=400 src="https://i.ibb.co/KmVVXDW/tateti.png">
+<img width=200 src="https://i.ibb.co/KmVVXDW/tateti.png">
