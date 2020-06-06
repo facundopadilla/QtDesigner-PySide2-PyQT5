@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @author: Facundo Kimbo - https://www.github.com/facundokimbo
+# @author: Facundo Padilla - https://www.github.com/facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
 # License MIT
 
 from PyQt5 import QtWidgets
