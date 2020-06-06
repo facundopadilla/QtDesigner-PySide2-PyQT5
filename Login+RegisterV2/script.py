@@ -1,3 +1,6 @@
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
+
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow
 from PyQt5 import uic, QtWidgets
 from images import rcc_login
