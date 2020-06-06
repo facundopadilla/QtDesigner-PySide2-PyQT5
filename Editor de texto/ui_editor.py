@@ -3,8 +3,13 @@
 # Form implementation generated from reading ui file 'editor.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.2
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
 #
 # WARNING! All changes made in this file will be lost!
+
+# PARTE VISUAL --- NO EDITAR NADA!!!
+# THIS PART IS VISUAL --- DON'T EDIT ANYTHING!!!
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
