@@ -1,3 +1,6 @@
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
+
 from PyQt5 import QtWidgets
 from ui_calculadora import Ui_MainWindow
 import sys
