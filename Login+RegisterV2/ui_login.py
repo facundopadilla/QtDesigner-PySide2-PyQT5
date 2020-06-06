@@ -3,7 +3,8 @@
 # Form implementation generated from reading ui file 'login.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.2
-#
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
 # WARNING! All changes made in this file will be lost!
 
 
