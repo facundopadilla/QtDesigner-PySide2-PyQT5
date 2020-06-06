@@ -1,5 +1,7 @@
-# Diseñado por Facundo Kimbo - https://www.github.com/facundokimbo 
+# Diseñado por Facundo Padilla - https://www.github.com/facundopadilla
 # Éste contenido es de uso libre y contiene licencia MIT, por lo tanto, no me responsabilizo de daños y prejuicios en el caso de su uso y/o modificación.
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
