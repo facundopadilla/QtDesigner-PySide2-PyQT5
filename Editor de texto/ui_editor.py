@@ -127,7 +127,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Editor de texto"))
         self.menuAbrir.setTitle(_translate("MainWindow", "Archivo"))
-        self.menuAutor.setTitle(_translate("MainWindow", "https://www.github.com/facundokimbo"))
+        self.menuAutor.setTitle(_translate("MainWindow", "https://www.github.com/facundopadilla"))
         self.actionNuevo.setText(_translate("MainWindow", "Nuevo"))
         self.actionGuardar.setText(_translate("MainWindow", "Guardar"))
         self.actionGuardar_como.setText(_translate("MainWindow", "Guardar como"))
