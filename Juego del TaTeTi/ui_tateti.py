@@ -3,10 +3,11 @@
 # Form implementation generated from reading ui file 'tateti.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.2
-#
+# @author: facundopadilla
+# @linkedin: https://www.linkedin.com/in/facundopadilla/
 # WARNING! All changes made in this file will be lost!
 
-# Diseñado por Facundo Kimbo - https://www.github.com/facundokimbo 
+# Diseñado por Facundo Padilla - https://www.github.com/facundopadilla
 # Éste contenido es de uso libre y contiene licencia MIT, por lo tanto, no me responsabilizo de daños y prejuicios en el caso de su uso y/o modificación.
 
 
@@ -122,7 +123,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "TaTeTi - Facundo Kimbo"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "TaTeTi - Facundo Padilla"))
         self.btnComenzar.setText(_translate("MainWindow", "Limpiar y jugar"))
 
 
