@@ -16,7 +16,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Editor de texto</string>
+   <string>Editor de texto - Facundo Padilla</string>
   </property>
   <property name="styleSheet">
    <string notr="true">*{
@@ -158,7 +158,7 @@ background-color: #292929;
    </widget>
    <widget class="QMenu" name="menuAaaaaaa">
     <property name="title">
-     <string>https://www.github.com/facundokimbo</string>
+     <string>https://www.github.com/facundopadilla</string>
     </property>
    </widget>
    <addaction name="menuAbrir"/>
